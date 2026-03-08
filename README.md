@@ -6,7 +6,7 @@
 ![Portfolio](https://img.shields.io/badge/Portfolio-Data%20Analyst-brightgreen)
 
 ## 📌 Project Overview
-Analyzed sales performance for a fictional superstore using PostgreSQL. Identified profitable products, regional performance, and areas losing money to provide actionable business insights.
+This project simulates a real-world business scenario where I acted as a Data Analyst for a retail superstore. The objective was to identify profit drivers, loss areas, and actionable strategies to improve margins.
 
 ## 🛠️ Skills Demonstrated
 - **SQL:** Aggregations, CASE statements, Subqueries, CTEs
@@ -32,6 +32,15 @@ Analyzed sales performance for a fictional superstore using PostgreSQL. Identifi
 | **Discounts > 50%** hurt profits | Products with 70-80% discounts lose money | Cap discounts at 40%, require approval |
 | **Office Supplies** steady | 17% margin with consistent sales | Maintain inventory, focus on bundling |
 
+# Category Profit Performance
+![image alt](https://github.com/FarisZalfa/sql-superstore-sales-analysis/blob/c70a627a4a18524c60af53870a16787ebe82eee6/category_profit.png)
+
+# Discount Impact Analysis
+![image alt](https://github.com/FarisZalfa/sql-superstore-sales-analysis/blob/c70a627a4a18524c60af53870a16787ebe82eee6/discount_impact.png)
+
+# Discount Impact Analysis
+![image alt](https://github.com/FarisZalfa/sql-superstore-sales-analysis/blob/c70a627a4a18524c60af53870a16787ebe82eee6/regional_performance.png)
+
 ## 💡 Business Recommendations
 - **Reduce Furniture inventory** - low margins (3.8%), Tables sub-category loses 18%
 - **Expand Technology section** - highest profit margins (17.4%) and sales
@@ -42,6 +51,8 @@ Analyzed sales performance for a fictional superstore using PostgreSQL. Identifi
 
 ## 📁 Data Source
 Dataset: [Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+
+The dataset contains 9,994 sales transactions across 21 variables including product category, region, discount, and profit.
 
 ## 🖥️ SQL Queries
 
