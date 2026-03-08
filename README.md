@@ -25,10 +25,10 @@ This project simulates a real-world business scenario where I acted as a Data An
 
 | Finding | Result | Business Impact |
 |--------|--------|-----------------|
-| **Technology** leads profits | $145,455 profit at 17.4% margin | Stock more tech products, create bundles |
-| **Furniture** underperforms | Only 3.8% margin, Tables lose 18% | Renegotiate with suppliers, reduce discounts |
-| **Copiers** are top product | $25K+ profit from just 68 orders | Cross-sell to existing customers |
-| **West region** dominates | 31% of total profit, highest margins | Study West strategies for other regions |
+| **Technology** leads profits | $145,454 profit at 17.4% margin | Stock more tech products, create bundles |
+| **Furniture** underperforms | Only 2.49% margin, Tables lose (~-17% margin) | Renegotiate with suppliers, reduce discounts |
+| **Copiers** are top product | The Canon imageCLASS 2200 Advanced Copier generated $25K+ profit from just 5 orders | Indicates extremely high-margin products |
+| **West region** dominates | 37% of total profit, highest margins | Study West strategies for other regions |
 | **Discounts > 50%** hurt profits | Products with 70-80% discounts lose money | Cap discounts at 40%, require approval |
 | **Office Supplies** steady | 17% margin with consistent sales | Maintain inventory, focus on bundling |
 
@@ -42,12 +42,12 @@ This project simulates a real-world business scenario where I acted as a Data An
 ![image alt](https://github.com/FarisZalfa/sql-superstore-sales-analysis/blob/c70a627a4a18524c60af53870a16787ebe82eee6/regional_performance.png)
 
 ## 💡 Business Recommendations
-- **Reduce Furniture inventory** - low margins (3.8%), Tables sub-category loses 18%
-- **Expand Technology section** - highest profit margins (17.4%) and sales
-- **Investigate Tables** - losing money despite high sales, check suppliers/pricing
-- **West region strategies** - 31% of total profit, replicate in other regions
-- **Copiers are gold** - $25K+ profit from 68 orders, bundle with accessories
-- **Cap discounts at 40%** - discounts above 50% consistently lose money
+- **Reduce Furniture inventory** - Low margins (2.49%), Tables sub-category loses 17%. The company should review pricing strategy, supplier costs, and discount policies before expanding inventory in this category.
+- **Expand Technology section** - Technology products generate the highest profit margins (17.4%) and strong sales volume. Increasing product availability and cross-selling accessories may further increase revenue.
+- **Investigate Tables** - The Tables sub-category shows negative profitability despite high sales volume. This suggests pricing issues, excessive discounting, or high supplier costs. Further investigation is recommended.
+- **West region strategies** - 38% of total profit, outperforming other regions. Further analysis may identify operational or pricing strategies that could be replicated in underperforming regions.
+- **Promote high-margin copier products** – The Canon imageCLASS 2200 Advanced Copier generated over $25K profit from just 5 orders, suggesting copier products have very high margins. Targeting business customers and bundling with office equipment could increase revenue.
+- **Cap discounts at 40%** - Discounts above 40–50% are strongly associated with negative profit margins. Implementing discount controls or approval processes for high discounts may help protect profitability.
 
 ## 📁 Data Source
 Dataset: [Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
